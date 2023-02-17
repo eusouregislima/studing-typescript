@@ -1,0 +1,17 @@
+Quando saber qual usar?
+
+Se entrar em um projeto que já tenha um dos dois, prossegue como está.
+Ao iniciar, recomenda-se usar o type_alias.
+E quando precisar unir múltiplas declarações, como o caso de outra pessoas precisar baixar
+a minha biblioteca e conseguir utilizar como no exemplor abaixo.
+Que é o case de quando vou criar uma biblioteca que sei que outras pessoas vão
+baixar e utilizar.
+interface MinhaBiblioteca{
+  prop1: string
+}
+ interface MinhaBiblioteca{
+  prop2: string
+ }
+Dessa forma consigo usar o mesmo nome na interface para acrescentar propriedades
+
+
